@@ -9,6 +9,7 @@ const UseStateExample = () => {
   const [name, setName] = useState('Jackson');
   const [address, setAddress] = useState('Mbeya');
   const [school, setSchool] = useState('UNI Mbeya');
+  const [place, setPlace] = useState("Geto");
 
   return (
     <Card>
@@ -16,8 +17,10 @@ const UseStateExample = () => {
       <button onClick={() => setName('Silas')}>Set Name</button>
       <h2>{address}</h2>
       <button onClick={()=> setAddress('Iyunga')}>Set Address</button>
-      <h1>{school}</h1>
+      <h1>{school}</h1> 
+      <h1>{place}</h1>
       <button onClick={() => setSchool('MUST')}>Set School</button>
+      <button onClick={()=> setPlace('Hostel')}>Set School</button>
     </Card>
   );
 };
