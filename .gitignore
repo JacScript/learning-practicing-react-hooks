@@ -11,7 +11,6 @@
 #files
 /src/components/post
 /src/components/sagas-example
-/src/components/use-effect-example
 /src/components/user
 /src/effects
 /src/redux
